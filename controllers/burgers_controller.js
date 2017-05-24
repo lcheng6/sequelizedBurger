@@ -10,11 +10,12 @@ router.get("/", function(req, res) {
 
 router.get("/burgers", function(req, res) {
   // express callback response by calling burger.selectAllBurger
-  burger.all(function(data) {
+  burger.findAll({})
+    .then(function(data) {
     // Wrapping the array of returned burgers in a object so it can be referenced inside our handlebars
-    var hbsObject = { burgers: data };
-    res.render("index", hbsObject);
-  });
+      var hbsObject = { burgers: data };
+      res.render("index", hbsObject);
+    });
 });
 
 // post route -> back to index

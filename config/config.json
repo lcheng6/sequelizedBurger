@@ -16,8 +16,8 @@
   "production": {
     "username": "b65c25ec0b0877",
     "password": "b75a59fb",
-    "database": "us-cdbr-iron-east-03.cleardb.net",
-    "host": "heroku_5ff29c8e5692fa7",
+    "database": "heroku_5ff29c8e5692fa7",
+    "host": "us-cdbr-iron-east-03.cleardb.net",
     "dialect": "mysql"
   },
   "use_env_variable": true

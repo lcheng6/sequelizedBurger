@@ -26,7 +26,7 @@ PRIMARY KEY (id)
 
 
 
-CREATE TABLE dining_record (
+CREATE TABLE dining_records (
 id int NOT NULL AUTO_INCREMENT,
 customer_id INT,
 burger_id INT,

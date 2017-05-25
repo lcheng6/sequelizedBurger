@@ -9,6 +9,17 @@ module.exports = {
       Example:
       return queryInterface.createTable('users', { id: Sequelize.INTEGER });
     */
+    queryInterface.createTable('customers', {
+      id: {
+        type: Sequelize.INTEGER,
+        primaryKey: true,
+        autoIncrement: true
+      },
+      customer_name: {
+        type: Sequelize.STRING,
+        allowNull: false
+      }
+    })
   },
 
   down: function (queryInterface, Sequelize) {
@@ -19,5 +30,6 @@ module.exports = {
       Example:
       return queryInterface.dropTable('users');
     */
+    queryInterface.dropTable('customers')
   }
 };

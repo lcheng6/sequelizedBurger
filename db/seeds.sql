@@ -7,6 +7,6 @@ INSERT INTO customers(customer_name) VALUES("Jack");
 INSERT INTO customers(customer_name) VALUES("Liang");
 INSERT INTO customers(customer_name) VALUES("May");
 
-INSERT INTO dining_record(customer_id, burger_id, number_eaten) VALUES (1, 1, 3);
-INSERT INTO dining_record(customer_id, burger_id, number_eaten) VALUES (1, 2, 4);
-INSERT INTO dining_record(customer_id, burger_id, number_eaten) VALUES (1, 3, 4);
+INSERT INTO dining_records(customer_id, burger_id, number_eaten) VALUES (1, 1, 3);
+INSERT INTO dining_records(customer_id, burger_id, number_eaten) VALUES (1, 2, 4);
+INSERT INTO dining_records(customer_id, burger_id, number_eaten) VALUES (1, 3, 4);

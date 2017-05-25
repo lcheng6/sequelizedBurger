@@ -7,7 +7,7 @@ var Sequelize = require("sequelize");
 var sequelize = require("../config/connection.js");
 
 // Creates a "Chirp" model that matches up with DB
-var burger = sequelize.define("burger", {
+var burger = sequelize.define("burgers", {
   id: {
     type: Sequelize.INTEGER,
     primaryKey: true,
@@ -18,12 +18,11 @@ var burger = sequelize.define("burger", {
     allowNull: false
   },
   devoured:{
-    type:Sequelize.BOOLEAN,
+    type: Sequelize.BOOLEAN,
     defaultValue: false
   }
-}, {
-  timestamps: false
 });
+burger.name = "burger";
 
 // Syncs with DB
 burger.sync();

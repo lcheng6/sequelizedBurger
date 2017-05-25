@@ -19,5 +19,6 @@
     "database": "heroku_5ff29c8e5692fa7",
     "host": "heroku_5ff29c8e5692fa7",
     "dialect": "mysql"
-  }
+  },
+  "use_env_variable": true
 }

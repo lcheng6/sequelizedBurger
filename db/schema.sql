@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS sequelizedburger;
 USE sequelizedburger;
 
 /* If the table already exists, remove it before trying to create the table again*/
-DROP TABLE IF EXISTS dining_record;
+DROP TABLE IF EXISTS dining_records;
 DROP TABLE IF EXISTS customers;
 DROP TABLE IF EXISTS burgers;
 

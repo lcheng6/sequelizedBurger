@@ -1,6 +1,6 @@
-INSERT INTO burgers (burger_name, devoured) VALUES ('Cheese Burger', FALSE);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Hamburger', FALSE);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Pizza Burger', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Cheese Burger", FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Hamburger", FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Pizza Burger", FALSE);
 
 INSERT INTO customers(customer_name) VALUES("Joey");
 INSERT INTO customers(customer_name) VALUES("Jack");
